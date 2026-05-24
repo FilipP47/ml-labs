@@ -1,3 +1,11 @@
-Task: Build an image classifier assigning each input to one of 50 classes using provided ImageFolder datasets.
+# img-classifier
 
-Solution: Custom CNN trained from scratch in `solution.ipynb`, using torchvision transforms and DataLoader.
+Overview
+ - Task: build an image classifier that assigns images to one of 50 classes.
+
+Data
+ - Data expected in `ImageFolder` format (subdirectories per class).
+
+Solution
+ - Model: custom convolutional neural network trained from scratch.
+ - Notebook: `solution.ipynb` includes preprocessing, augmentations (`torchvision.transforms`), and training (`DataLoader`).

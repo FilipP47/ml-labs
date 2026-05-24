@@ -1,3 +1,11 @@
-Task: Predict total number of bike rentals (`cnt`) from historical features (weather, time, weekday/holiday).
+# bikes-regression
 
-Solution: PyTorch feedforward regression trained on log1p(cnt) with StandardScaler. The model predicts on evaluation data.
+Overview
+ - Task: predict total bike rentals (`cnt`) from historical features (weather, time, weekday/holiday).
+
+Data
+ - Tabular dataset with time and weather features.
+
+Solution
+ - Model: simple feedforward regressor (PyTorch) trained on `log1p(cnt)`.
+ - Preprocessing: `StandardScaler` for numeric features.

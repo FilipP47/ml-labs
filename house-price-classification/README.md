@@ -1,3 +1,11 @@
-Task: Classify apartments into 0: cheap (<=100k), 1: average (<=350k), 2: expensive (>350k) using property features.
+# house-price-classification
 
-Solution: PyTorch MLP classifier with engineered features (parking, age, facilities, neighborhood), class-weighted CrossEntropyLoss to address imbalance.
+Overview
+ - Task: classify apartments into price categories (e.g., cheap / average / expensive) based on property features.
+
+Data
+ - Tabular data with features such as area, number of rooms, building age, parking, location, NeighborhoodScore, etc.
+
+Solution
+ - Model: MLP (PyTorch) with basic feature engineering.
+ - Loss: `CrossEntropyLoss` with class weights to handle imbalance.
